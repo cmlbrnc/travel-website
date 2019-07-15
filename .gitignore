@@ -14,7 +14,8 @@ node_modules/
 
 # OS or Editor folders
 .DS_Store
-Thumbs.db
+#thumbs ope system created it automaticly
+Thumbs.db 
 .cache
 .project
 .settings

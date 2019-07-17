@@ -6,14 +6,28 @@
     &--gutters div {
         padding-right:65px;
     }
+    &__b-margin-until-medium {
+        margin-bottom:1rem;
+    }
     @mixin atMedium {
+
+        &__b-margin-until-medium {
+            margin-bottom:0;
+        }
         &__m-4 {
             float: left;
             width: 33.33%;
         }
+        &__m-4--larger {
+            
+            width: 37%;
+        }
         &__m-8 {
             float: left;
             width: 66.33%;
+        }
+        &__m-8--smaller {
+            width: 63%;
         }
     }
 

@@ -8,6 +8,30 @@
     &--medium {
         max-width: 976px;
     }
+    &--no-padding-until-medium {
+        /* offset or zero out padding values or  */
+
+        padding-left:0;
+        padding-right:0;
+        @mixin  atSmall {
+
+            padding-left:18px;
+            padding-right:18px;
+                
+            }
+    } &--no-padding-until-large {
+        /* offset or zero out padding values or  */
+
+        padding-left:0;
+        padding-right:0;
+
+        @mixin  atLarge {
+
+        padding-left:18px;
+        padding-right:18px;
+            
+        }
+    }
     .wrapper {
         padding-left: 0;
         padding-right: 0;
@@ -16,4 +40,5 @@
     &--b-margin {
         margin-bottom:3.875rem;
     }
+
 }
